@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    height: 160vh;
     margin-bottom: 100px;
 }
 
@@ -21,7 +21,8 @@
 }
 .collections{
     margin-top: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     gap: 20px;
     height: 300px;
@@ -30,11 +31,14 @@
 
 @media(max-width:1280px){
     .new-collections{
-        height: 90vh;
+        height: 130vh;
     }
 }
 
 @media(max-width:1024px){
+    .new-collections{
+        height: 120vh;
+    }
     .new-collections h1{
         font-size: 45px;
     }
@@ -48,6 +52,10 @@
 }
 
 @media(max-width:800px){
+    .new-collections{
+        height: 110vh;
+        margin-top: 150px;
+    }
     .new-collections{
         gap: 6px;
     }
@@ -63,6 +71,9 @@
 }
 
 @media(max-width:500px){
+    .new-collections{
+        height: 150vh;
+    }
     .new-collections hr{
         width: 140px;
     }

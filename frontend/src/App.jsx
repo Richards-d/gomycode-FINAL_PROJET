@@ -1,15 +1,18 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar"
-import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Shop from "./Pages/Shop";
 import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Product";
 import Cart from "./Pages/Cart"
 import LoginSignup from "./Pages/LoginSignup"
 import Footer from "./Components/Footer/Footer";
+import PlaceOrder from "./Components/PlaceOrder/PlaceOrder";
+import Success from "./Pages/Success";
+import Cancel from "./Pages/Cancel";
 
 const App = () => {
+
   return (
     <div>
       <BrowserRouter>
@@ -25,6 +28,9 @@ const App = () => {
         </Route>
         <Route path="/cart" element={<Cart/>} />
         <Route path="/login" element={<LoginSignup/>} />
+        <Route path="/order" element={<PlaceOrder/>} />
+        <Route path="/success" element={<Success/>} />
+        <Route path="/cancel" element={<Cancel/>} />
       </Routes>
 
       <Footer/>

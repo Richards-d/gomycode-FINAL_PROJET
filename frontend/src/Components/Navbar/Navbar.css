@@ -8,10 +8,11 @@
     backdrop-filter: blur(10px);
 }
 
-.nav-logo{
+.nav-logo:hover{
     display: flex;
     align-items: center;
     gap: 10px;
+    filter: drop-shadow(0 0 3em black);
 }
 
 .nav-logo img{

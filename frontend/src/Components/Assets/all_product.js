@@ -36,7 +36,7 @@ import p35_img from "./item_35.jpg"
 import p36_img from "./item_36.jpg"
 import p37_img from "./item_37.jpg"
 
-let all_product = [
+let allproducts = [
     {
         id:1,
         name: "LEVIS | Regular Fit Shirt",
@@ -298,4 +298,4 @@ let all_product = [
     }
 ]
 
-export default all_product;
+export default allproducts;

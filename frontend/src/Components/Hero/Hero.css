@@ -1,5 +1,5 @@
 .hero{
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
 }
@@ -11,14 +11,22 @@
     justify-content: center;
     gap: 30px;
     padding-left: 180px;
-    line-height: 0.3;
+    line-height: 0.8;
     margin-top: 20px;
 }
 
 .hero-left h2{
+    width: 30ch;
     color: #090909;
-    font-size: 26px;
     font-weight: 600;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20) infinite alternate-reverse;
+}
+@keyframes typing{
+    from {
+        width: 0ch;
+    }
 }
 
 .hero-left p{
@@ -143,6 +151,6 @@
 
 @media(max-width:460px){
     .hero-left p{
-        font-size: 40px;
+        font-size: 35px;
     }
 }

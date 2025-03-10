@@ -1,0 +1,19 @@
+.cancel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancel-text{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 200px;
+    width: 300px;
+}
+
+.cancel-icon{
+    width: 50px;
+    padding-top: 23px;
+}
