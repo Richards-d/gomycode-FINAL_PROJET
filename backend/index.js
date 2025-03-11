@@ -404,7 +404,7 @@ app.post("/newsletter", async(req,res)=>{
 })
 
 
-app.listen(port, (error)=>{
+app.listen(process.env.PORT || 4000, (error)=>{
     if(!error){
         console.log("Server Running on Port: "+port)
     }
