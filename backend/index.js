@@ -10,7 +10,7 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 app.use(express.static("public"));
 app.use(express.json());
@@ -404,7 +404,7 @@ app.post("/newsletter", async(req,res)=>{
 })
 
 
-app.listen(process.env.PORT || 4000, (error)=>{
+app.listen(port, (error)=>{
     if(!error){
         console.log("Server Running on Port: "+port)
     }
