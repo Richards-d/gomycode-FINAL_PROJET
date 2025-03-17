@@ -23,7 +23,7 @@ const NewsLetter = () => {
         return;
         }
         
-        await fetch('http://localhost:4000/newsletter',{
+        await fetch('https://back-2l9a.onrender.com/newsletter',{
             method: 'POST',
             headers:{
                 Accept:"application/form-data",
