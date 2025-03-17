@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a16dd113.css",
+    "main.js": "/static/js/main.cbb334c2.js",
+    "static/js/488.ae75991b.chunk.js": "/static/js/488.ae75991b.chunk.js",
+    "static/media/offer-right1.png": "/static/media/offer-right1.c7f2ab7e9840243c9c4a.png",
+    "static/media/hero_1.png": "/static/media/hero_1.22a6639f39b464948d8c.png",
+    "static/media/checkmark.png": "/static/media/checkmark.e96371346d0fff611fbc.png",
+    "static/media/logo3.png": "/static/media/logo3.baaae4b53822a4443801.png",
+    "static/media/cancelmark.png": "/static/media/cancelmark.f843456695bfc6df73a0.png",
+    "static/media/dropdown_icon2.png": "/static/media/dropdown_icon2.be694910ea01430d1764.png",
+    "static/media/address-icon.png": "/static/media/address-icon.531f576435c99536d246.png",
+    "static/media/star_icon.png": "/static/media/star_icon.d0cbd94e0a4a62fc2bf4.png",
+    "static/media/tiktok-icon.png": "/static/media/tiktok-icon.8bb71cc6c1bd4e58530b.png",
+    "static/media/Instagram_1.svg": "/static/media/Instagram_1.7c65e109b1c5771324f49c04017c02e7.svg",
+    "index.html": "/index.html",
+    "main.a16dd113.css.map": "/static/css/main.a16dd113.css.map",
+    "main.cbb334c2.js.map": "/static/js/main.cbb334c2.js.map",
+    "488.ae75991b.chunk.js.map": "/static/js/488.ae75991b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a16dd113.css",
+    "static/js/main.cbb334c2.js"
+  ]
+}
