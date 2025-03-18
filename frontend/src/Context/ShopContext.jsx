@@ -17,13 +17,13 @@ const ShopContextProvider = (props) => {
     const [all_product, setAll_product] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:4000/allproducts').then(async (response) => {
+        fetch('https://back-2l9a.onrender.com/allproducts').then(async (response) => {
             const data = await response.json()
             setAll_product(data.data)
           });
 
           if(localStorage.getItem('auth-token')){
-            fetch('http://localhost:4000/getcart',{
+            fetch('https://back-2l9a.onrender.com/getcart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',
@@ -40,7 +40,7 @@ const ShopContextProvider = (props) => {
         setCartItems((prev) =>({...prev,[itemId]:prev[itemId]+1}))
 
         if(localStorage.getItem('auth-token')){
-            fetch('http://localhost:4000/addtocart',{
+            fetch('https://back-2l9a.onrender.com/addtocart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',
@@ -57,7 +57,7 @@ const ShopContextProvider = (props) => {
         setCartItems((prev) =>({...prev,[itemId]:prev[itemId]-1}))
 
         if(localStorage.getItem('auth-token')){
-            fetch('http://localhost:4000/removefromcart',{
+            fetch('https://back-2l9a.onrender.com/removefromcart',{
                 method:'POST',
                 headers:{
                     Accept:'application/form-data',
