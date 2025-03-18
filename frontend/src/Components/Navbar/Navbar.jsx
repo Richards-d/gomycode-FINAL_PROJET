@@ -1,11 +1,11 @@
 import React, { useContext, useRef } from "react";
 import "./Navbar.css";
-import logo from "../Assets/logo3.png"
-import shopping_cart from "../Assets/cart.png"
+import logo from "../../assets/logo3.png"
+import shopping_cart from "../../assets/cart.png"
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
-import nav_dropdown from "../Assets/dropdown_icon2.png"
+import nav_dropdown from "../../assets/dropdown_icon2.png"
 
 const Navbar = () => {
 

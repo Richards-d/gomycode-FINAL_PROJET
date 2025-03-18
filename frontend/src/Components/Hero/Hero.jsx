@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import hero_image from "../Assets/hero_1.png"
+import hero_image from "../../assets/hero_1.png"
 
 const Hero = () => {
     return (

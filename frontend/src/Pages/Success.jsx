@@ -1,6 +1,6 @@
 import React from "react";
 import "./CSS/Success.css";
-import success_icon from "../Components/Assets/checkmark.png"
+import success_icon from "../assets/checkmark.png"
 
 const Success = () =>{
     return (

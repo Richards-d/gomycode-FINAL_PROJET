@@ -1,6 +1,6 @@
 import React from "react";
 import './CSS/Cancel.css';
-import cancel_icon from "../Components/Assets/cancelmark.png"
+import cancel_icon from "../assets/cancelmark.png"
 
 const Cancel = () =>{
     return (

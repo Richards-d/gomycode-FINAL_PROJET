@@ -1,6 +1,6 @@
 import React from "react";
 import "./Breadcrumb.css"
-import arrow_icon from "../Assets/arrow_icon.png"
+import arrow_icon from "../../assets/arrow_icon.png"
 
 const Breadcrumb = (props) => {
     const {product} = props;

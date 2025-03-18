@@ -1,12 +1,12 @@
 import React from "react";
 import './Footer.css';
-import logo from "../Assets/logo3.png";
-import facebook_icon from "../Assets/facebook_1.png";
-import instagram_icon from "../Assets/Instagram_1.svg";
-import tiktok_icon from "../Assets/tiktok-icon.png";
-import address_icon from "../Assets/address-icon.png";
-import phone_icon from "../Assets/phone-icon1.png";
-import mail_icon from "../Assets/mail-icon.png";
+import logo from "../../assets/logo3.png";
+import facebook_icon from "../../assets/facebook_1.png";
+import instagram_icon from "../../assets/Instagram_1.svg";
+import tiktok_icon from "../../assets/tiktok-icon.png";
+import address_icon from "../../assets/address-icon.png";
+import phone_icon from "../../assets/phone-icon1.png";
+import mail_icon from "../../assets/mail-icon.png";
 import { Link } from "react-router-dom";
 
 
