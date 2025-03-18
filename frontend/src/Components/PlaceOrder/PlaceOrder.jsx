@@ -44,7 +44,7 @@ const PlaceOrder = () => {
       return;
     }
 
-    const response = await fetch("https://back-2l9a.onrender.com/makepayment", {
+    const response = await fetch("http://localhost:4000/makepayment", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(items),
@@ -65,7 +65,7 @@ const PlaceOrder = () => {
 
     console.log("Delivery Information", formData)
 
-    await fetch('https://back-2l9a.onrender.com/deliveryinformation', {
+    await fetch('http://localhost:4000/deliveryinformation', {
         method:'POST',
         headers:{
             Accept:"application/form-data",
