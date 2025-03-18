@@ -6,7 +6,7 @@ const RelatedProducts = () => {
     const[relatedProducts,setRelatedProducts] = useState([]);
     
         useEffect(()=>{
-            fetch('http://localhost:4000/relatedproducts')
+            fetch('https://back-2l9a.onrender.com/relatedproducts')
             .then((response) => response.json())
             .then((data) => setRelatedProducts(data));
         },[])
